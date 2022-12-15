@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationNormal", "WebApplicationNormal\WebApplicationNormal.csproj", "{E2D2A875-D980-43A1-9714-7A5DD8E43F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMinimal", "..\WebApplicationMinimal\WebApplicationMinimal\WebApplicationMinimal.csproj", "{89D1BD30-C5CD-48C1-BA4D-8BE56EAD6A2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D688EE23-BABC-4BE6-8EAB-BA0BD1DA0618}"
+	ProjectSection(SolutionItems) = preProject
+		locustfile.py = locustfile.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2D2A875-D980-43A1-9714-7A5DD8E43F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D2A875-D980-43A1-9714-7A5DD8E43F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D2A875-D980-43A1-9714-7A5DD8E43F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D2A875-D980-43A1-9714-7A5DD8E43F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D1BD30-C5CD-48C1-BA4D-8BE56EAD6A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D1BD30-C5CD-48C1-BA4D-8BE56EAD6A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D1BD30-C5CD-48C1-BA4D-8BE56EAD6A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D1BD30-C5CD-48C1-BA4D-8BE56EAD6A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B66A9F09-157A-4439-B518-4AB70E1DCEA8}
+	EndGlobalSection
+EndGlobal
